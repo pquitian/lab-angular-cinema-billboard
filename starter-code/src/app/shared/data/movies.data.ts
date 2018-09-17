@@ -1,4 +1,6 @@
-[
+import { Movie } from '../models/movie.model';
+
+const moviesMock: Movie[] = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -72,7 +74,6 @@
       "Gary Oldman"
     ]
   }, {
-  {
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -91,4 +92,6 @@
       "Embeth Davidtz"
     ]
   }
-]
+];
+
+export default moviesMock;
